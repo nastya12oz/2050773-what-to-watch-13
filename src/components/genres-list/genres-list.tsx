@@ -22,7 +22,7 @@ function GenresList({genres, currentGenre, onGenreChange}: GenresListProps): JSX
           className={classNames('catalog__genres-item', { 'catalog__genres-item--active': genre === currentGenre })}
         >
           <a
-            href="#"
+            href=""
             className="catalog__genres-link"
             onClick={() => handleGenreClick(genre)}
           >
